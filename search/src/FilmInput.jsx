@@ -5,5 +5,5 @@ export default function FilmInput({name, setName}) {
         const name = event.currentTarget.value;
         setName(name);
     }, []);
-    return <input value={name} onInput={handleNameChange} />
+    return <input value={name} onInput={handleNameChange } />
 }
